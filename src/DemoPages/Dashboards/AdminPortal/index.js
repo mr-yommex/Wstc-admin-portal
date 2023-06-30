@@ -2,24 +2,24 @@ import React, { Component, Fragment } from "react";
 import Tabs from "react-responsive-tabs";
 
 import PageTitle from "../../../Layout/AppMain/PageTitle";
-import Logo from "../../../assets/utils/images/logo-inverse.png";
 
 // Examples
 import AccountManagement from "./Examples/AccountManagement";
-import CardManagement from "./Examples/CardManagement";
+// import CardManagement from "./Examples/CardManagement";
 import UsersAndRoles from "./Examples/UsersAndRoles";
+import ComingSoon from "./Examples/ComingSoon";
 import General from "./Examples/General";
 import AppLogo from "../../../Layout/AppLogo";
 
 const tabsContent = [
   {
-    title: "Account Management",
+    title: "Customer",
     content: <AccountManagement />,
     key: 1,
   },
   {
     title: "Cards Management",
-    content: <CardManagement />,
+    content: <ComingSoon />,
     key: 2,
   },
   {

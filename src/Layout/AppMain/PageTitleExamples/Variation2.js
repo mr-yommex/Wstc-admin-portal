@@ -11,7 +11,7 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-import { faStar, faBusinessTime, faAddressBook } from "@fortawesome/free-solid-svg-icons";
+import { faStar, faBusinessTime, faAddressBook, faHome } from "@fortawesome/free-solid-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -25,24 +25,14 @@ export default class TitleComponent2 extends Component {
     });
   }
 
-  notify22 = () =>
-    (this.toastId = toast("Another toastify example!!!", {
-      transition: Slide,
-      closeButton: true,
-      autoClose: 5000,
-      position: "bottom-center",
-      type: "success",
-    }));
+
 
   render() {
     return (
       <Fragment>
-        {/* <Button className="btn-shadow me-3" onClick={this.notify22} color="dark" id="Tooltip-123">
-          <FontAwesomeIcon icon={faStar} />
+        <Button href="#/dashboards/adminportal" className="btn-shadow me-3" onClick={this.notify22} color="dark">
+          <FontAwesomeIcon icon={faHome} />
         </Button>
-        <UncontrolledTooltip placement="left" target={"Tooltip-123"}>
-          Show a Toastify notification example!
-        </UncontrolledTooltip> */}
         <UncontrolledDropdown className="d-inline-block">
           <DropdownToggle color="info" className="btn-shadow" caret>
             <span className="btn-icon-wrapper pe-2 opacity-7">

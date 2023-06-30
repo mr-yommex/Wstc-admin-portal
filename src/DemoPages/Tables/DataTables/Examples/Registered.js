@@ -103,7 +103,7 @@ export default class DataTableFixedHeader extends React.Component {
                                     <div className="app-inner-layout__header page-title-icon-rounded text-white bg-primary mb-4">
                                         <a href="#/dashboards/adminportal"><AppLogo /></a>
                                         <PageTitle
-                                            heading="Reistered Users"
+                                            heading="Registered Users"
                                             icon="lnr-user icon-gradient bg-primary"
                                         />
                                     </div>

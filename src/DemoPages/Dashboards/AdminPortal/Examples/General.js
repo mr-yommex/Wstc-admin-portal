@@ -4,27 +4,27 @@ import {
   Container,
 } from "reactstrap";
 
-import AvailableStocks from "./AvailableStocks";
-import AcceptableStocks from "./AcceptableStocks";
-import EligibilityCriteria from "./EligibilityCriteria";
+import LoanAdministration from "./LoanAdministration";
+import CommercialPaper from "./CommercialPaper";
+import ComingSoon from "./ComingSoon";
 
 
 const tabsContent = [
     {
-      title: "Available Stocks",
-      content: <AvailableStocks />,
+      title: "Loan Administration",
+      content: <LoanAdministration />,
       key: 1,
     },
 
     {
-        title: "Acceptable Stocks (Collateral)",
-        content: <AcceptableStocks />,
+        title: "Commercial Paper",
+        content: <CommercialPaper />,
         key: 2,
       },
 
       {
-        title: "Eligibility Criteria",
-        content: <EligibilityCriteria />,
+        title: "Coming Soon",
+        content: <ComingSoon />,
         key: 3,
       },
   

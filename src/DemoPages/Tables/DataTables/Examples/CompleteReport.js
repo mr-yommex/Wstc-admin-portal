@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
-import { Row, Col, Card, CardHeader, CardBody, Input, InputGroup } from "reactstrap";
+import { Card, CardHeader, CardBody, Input, InputGroup } from "reactstrap";
 
 import DataTable from 'react-data-table-component';
 
@@ -97,7 +97,7 @@ export default class DataTableFixedHeader extends React.Component {
                                     <div className="app-inner-layout__header page-title-icon-rounded text-white bg-primary mb-4">
                                         <a href="#/dashboards/adminportal"><AppLogo /></a>
                                         <PageTitle
-                                            heading="Restricted/Blocked Accounts"
+                                            heading="Non-active Customers"
                                             icon="lnr-cross-circle icon-gradient bg-danger"
                                         />
                                     </div>
@@ -107,7 +107,7 @@ export default class DataTableFixedHeader extends React.Component {
                                 <CardHeader className="card-header-tab">
                                     <div className="card-header-title font-size-lg text-capitalize fw-normal">
                                         <i className="header-icon lnr-laptop-phone me-3 text-muted opacity-6"> {" "} </i>
-                                        Blocked/Restricted accounts
+                                        Deactivated accounts
                                     </div>
                                     <div className="btn-actions-pane-right">
                                         <InputGroup>

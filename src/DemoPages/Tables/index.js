@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 // Tables
 
 import CompleteReport from "./DataTables/Examples/CompleteReport";
+import ActiveAccounts from "./DataTables/Examples/ActiveAccounts";
 import FailedLogin from "./DataTables/Examples/FailedLogin";
 import FailedSignUp from "./DataTables/Examples/FailedSignUp";
 import Registered from "./DataTables/Examples/Registered";
@@ -19,6 +20,7 @@ const Tables = ({ match }) => (
         <div className="app-main__inner">
 
           <Route path={`${match.url}/datatables-complete-report`} component={CompleteReport}/>
+          <Route path={`${match.url}/datatables-active-accounts`} component={ActiveAccounts}/>
           <Route path={`${match.url}/datatables-failed-login`} component={FailedLogin}/>
           <Route path={`${match.url}/datatables-failed-signup`} component={FailedSignUp}/>
           <Route path={`${match.url}/datatables-registered-users`} component={Registered}/>

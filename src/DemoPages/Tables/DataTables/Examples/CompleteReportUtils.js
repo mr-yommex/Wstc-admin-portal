@@ -36,10 +36,10 @@ const newPerson = () => {
         </Button>,
         status:
             statusChance > 0.66
-                ? "Blocked"
+                ? "Deactivated"
                 : statusChance > 0.33
-                    ? "Restricted"
-                    : "Suspended",
+                    ? "Deactivated"
+                    : "Deactivated",
     };
 };
 

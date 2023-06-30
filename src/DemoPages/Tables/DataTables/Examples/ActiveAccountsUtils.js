@@ -1,5 +1,5 @@
 import namor from "namor";
-import { Button, Container, ButtonGroup } from "reactstrap";
+import { Button,} from "reactstrap";
 
 const range = (len) => {
   const arr = [];
@@ -10,10 +10,9 @@ const range = (len) => {
 };
 
 const newPerson = () => {
-  const statusChance = Math.random();
   return {
-    firstName: namor.generate({ words: 1}),
-    lastName: namor.generate({ words: 1 }),
+    firstName: <a className="text-dark" href="#/pages/channel-test">{namor.generate({ words: 1})}</a>,
+    lastName: <a className="text-dark" href="#/pages/channel-test">{namor.generate({ words: 1})}</a>,
     acct: "00000000",
     progress: Math.floor(Math.random() * 100),
     status: "Active",

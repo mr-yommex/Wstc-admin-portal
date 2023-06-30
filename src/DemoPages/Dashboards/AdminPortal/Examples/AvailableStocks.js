@@ -43,8 +43,8 @@ export default class AnalyticsDashboard1 extends Component {
                     <tr>
                       <th className="text-center">Symbol</th>
                       <th>Name</th>
-                      <th className="text-center">Last Sale</th>
-                      <th className="text-center">Net Change</th>
+                      {/* <th className="text-center">Last Sale</th>
+                      <th className="text-center">Net Change</th> */}
                       <th className="text-center">Upload For Collateral</th>
                     </tr>
                   </thead>
@@ -68,10 +68,10 @@ export default class AnalyticsDashboard1 extends Component {
                           </div>
                         </div>
                       </td>
-                      <td className="text-center text-danger">$148.02</td>
+                      {/* <td className="text-center text-danger">$148.02</td>
                       <td className="text-center">
                         <div className="text-center text-danger">0.46%</div>
-                      </td>
+                      </td> */}
                       <td className="text-center">
                         <Button size="sm" color="primary" id={"PopoverCustomT-1"} onClick={this.togglePop1}>
                           Upload
@@ -97,10 +97,10 @@ export default class AnalyticsDashboard1 extends Component {
                           </div>
                         </div>
                       </td>
-                      <td className="text-center text-success">$15.42</td>
+                      {/* <td className="text-center text-success">$15.42</td>
                       <td className="text-center">
                         <div className="text-center text-success">1.46%</div>
-                      </td>
+                      </td> */}
                       <td className="text-center">
                         <Button size="sm" color="primary" id={"PopoverCustomT-1"} onClick={this.togglePop1}>
                           Upload
@@ -126,10 +126,10 @@ export default class AnalyticsDashboard1 extends Component {
                           </div>
                         </div>
                       </td>
-                      <td className="text-center text-success">$198.28</td>
+                      {/* <td className="text-center text-success">$198.28</td>
                       <td className="text-center">
                         <div className="text-center text-success">2.46%</div>
-                      </td>
+                      </td> */}
                       <td className="text-center">
                         <Button size="sm" color="primary" id={"PopoverCustomT-1"} onClick={this.togglePop1}>
                           Upload
@@ -155,10 +155,10 @@ export default class AnalyticsDashboard1 extends Component {
                           </div>
                         </div>
                       </td>
-                      <td className="text-center text-danger">$253.82</td>
+                      {/* <td className="text-center text-danger">$253.82</td>
                       <td className="text-center">
                         <div className="text-center text-danger">0.91%</div>
-                      </td>
+                      </td> */}
                       <td className="text-center">
                         <Button size="sm" color="primary" id={"PopoverCustomT-1"} onClick={this.togglePop1}>
                           Upload
@@ -184,10 +184,10 @@ export default class AnalyticsDashboard1 extends Component {
                           </div>
                         </div>
                       </td>
-                      <td className="text-center text-danger">$130.45</td>
+                      {/* <td className="text-center text-danger">$130.45</td>
                       <td className="text-center">
                         <div className="text-center text-danger">0.12%</div>
-                      </td>
+                      </td> */}
                       <td className="text-center">
                         <Button size="sm" color="primary" id={"PopoverCustomT-1"} onClick={this.togglePop1}>
                           Upload
@@ -213,10 +213,10 @@ export default class AnalyticsDashboard1 extends Component {
                           </div>
                         </div>
                       </td>
-                      <td className="text-center text-success">$95.67</td>
+                      {/* <td className="text-center text-success">$95.67</td>
                       <td className="text-center">
                         <div className="text-center text-success">0.16%</div>
-                      </td>
+                      </td> */}
                       <td className="text-center">
                         <Button size="sm" color="primary" id={"PopoverCustomT-1"} onClick={this.togglePop1}>
                           Upload
@@ -242,10 +242,10 @@ export default class AnalyticsDashboard1 extends Component {
                           </div>
                         </div>
                       </td>
-                      <td className="text-center text-success">$240.99</td>
+                      {/* <td className="text-center text-success">$240.99</td>
                       <td className="text-center">
                         <div className="text-center text-success">3.78%</div>
-                      </td>
+                      </td> */}
                       <td className="text-center">
                         <Button size="sm" color="primary" id={"PopoverCustomT-1"} onClick={this.togglePop1}>
                           Upload
@@ -271,10 +271,10 @@ export default class AnalyticsDashboard1 extends Component {
                           </div>
                         </div>
                       </td>
-                      <td className="text-center text-success">$93.11</td>
+                      {/* <td className="text-center text-success">$93.11</td>
                       <td className="text-center">
                         <div className="text-center text-success">0.02%</div>
-                      </td>
+                      </td> */}
                       <td className="text-center">
                         <Button size="sm" color="primary" id={"PopoverCustomT-1"} onClick={this.togglePop1}>
                           Upload
@@ -300,10 +300,10 @@ export default class AnalyticsDashboard1 extends Component {
                           </div>
                         </div>
                       </td>
-                      <td className="text-center text-danger">$95.63</td>
+                      {/* <td className="text-center text-danger">$95.63</td>
                       <td className="text-center">
                         <div className="text-center text-danger">0.10%</div>
-                      </td>
+                      </td> */}
                       <td className="text-center">
                         <Button size="sm" color="primary" id={"PopoverCustomT-1"} onClick={this.togglePop1}>
                           Upload
@@ -329,10 +329,10 @@ export default class AnalyticsDashboard1 extends Component {
                           </div>
                         </div>
                       </td>
-                      <td className="text-center text-success">$207.72</td>
+                      {/* <td className="text-center text-success">$207.72</td>
                       <td className="text-center">
                         <div className="text-center text-success">0.36%</div>
-                      </td>
+                      </td> */}
                       <td className="text-center">
                         <Button size="sm" color="primary" id={"PopoverCustomT-1"} onClick={this.togglePop1}>
                           Upload

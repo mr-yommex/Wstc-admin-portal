@@ -42,7 +42,7 @@ const newPerson = () => {
                 ? "Active"
                 : statusChance > 0.33
                     ? "Active"
-                    : "Restricted",
+                    : "Deactivated",
     };
 };
 
